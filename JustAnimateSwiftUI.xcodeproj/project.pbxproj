@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,58 @@
 		FD0FBCA726A7299C0087AB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0FBCA626A7299C0087AB4D /* ContentView.swift */; };
 		FD0FBCA926A7299F0087AB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0FBCA826A7299F0087AB4D /* Assets.xcassets */; };
 		FD0FBCAC26A729A00087AB4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0FBCAB26A729A00087AB4D /* Preview Assets.xcassets */; };
+		FD0FBCB426A735770087AB4D /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0FBCB326A735770087AB4D /* TextModifier.swift */; };
+		FD0FBCB626A735A30087AB4D /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0FBCB526A735A30087AB4D /* ImageModifier.swift */; };
+		FD2CB7AF26AC245400523B55 /* BreathingFlowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CB7AE26AC245400523B55 /* BreathingFlowerApp.swift */; };
+		FD2CB7B226AC34C900523B55 /* FlyBirdAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CB7B126AC34C900523B55 /* FlyBirdAnime.swift */; };
+		FD38A5CB26E34CDB0040EB35 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5CA26E34CDB0040EB35 /* HeartShape.swift */; };
+		FD38A5CD26E34EE70040EB35 /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5CC26E34EE70040EB35 /* Heart.swift */; };
+		FD38A5D026E35F660040EB35 /* ExpandingViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5CF26E35F660040EB35 /* ExpandingViewComponent.swift */; };
+		FD38A5D226E35F700040EB35 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5D126E35F700040EB35 /* ExpandingView.swift */; };
+		FD38A5D526E3660E0040EB35 /* LightSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5D426E3660D0040EB35 /* LightSwitch.swift */; };
+		FD38A5D826E36A2E0040EB35 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5D726E36A2E0040EB35 /* ArcView.swift */; };
+		FD38A5DA26E36B130040EB35 /* CircleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5D926E36B130040EB35 /* CircleEmitter.swift */; };
+		FD38A5DC26E36B320040EB35 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5DB26E36B320040EB35 /* Circles.swift */; };
+		FD38A5DE26E36BA60040EB35 /* WifiLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5DD26E36BA60040EB35 /* WifiLoading.swift */; };
+		FD38A5E126E3787A0040EB35 /* BookPagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5E026E3787A0040EB35 /* BookPagesView.swift */; };
+		FD38A5E326E37A290040EB35 /* BookHoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5E226E37A290040EB35 /* BookHoldView.swift */; };
+		FD38A5E526E37A9E0040EB35 /* BookLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38A5E426E37A9E0040EB35 /* BookLoader.swift */; };
+		FD4E307126AB1BB60072CBAA /* AnimatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307026AB1BB60072CBAA /* AnimatingCircle.swift */; };
+		FD4E307426AB20690072CBAA /* RecordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307326AB20680072CBAA /* RecordPlayer.swift */; };
+		FD4E307626AB20E60072CBAA /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307526AB20E60072CBAA /* RecordPlayerBox.swift */; };
+		FD4E307826AB21550072CBAA /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FD4E307726AB21550072CBAA /* music.m4a */; };
+		FD4E307A26AB24720072CBAA /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307926AB24720072CBAA /* RecordView.swift */; };
+		FD4E307C26AB260B0072CBAA /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307B26AB260B0072CBAA /* ArmView.swift */; };
+		FD4E307E26AB2A6D0072CBAA /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E307D26AB2A6D0072CBAA /* PlaySound.swift */; };
+		FD4E308126AB2E0B0072CBAA /* HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E308026AB2E0B0072CBAA /* HueRotation.swift */; };
+		FD56323326E111880000AA8C /* buoyBells.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FD56323226E111880000AA8C /* buoyBells.m4a */; };
+		FD56323526E111B40000AA8C /* PlayWavesSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56323426E111B40000AA8C /* PlayWavesSound.swift */; };
+		FD56323726E112050000AA8C /* BuoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56323626E112050000AA8C /* BuoyView.swift */; };
+		FD56323926E113F00000AA8C /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56323826E113F00000AA8C /* WaveView.swift */; };
+		FD56323B26E115160000AA8C /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56323A26E115160000AA8C /* Waves.swift */; };
+		FD59541026DE710300A63410 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59540F26DE710300A63410 /* DataModel.swift */; };
+		FD59541226DE716500A63410 /* WeatherUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59541126DE716500A63410 /* WeatherUI.swift */; };
+		FD59541426DE71D400A63410 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59541326DE71D400A63410 /* PickerView.swift */; };
+		FD59541726DE7AAD00A63410 /* SunMoonToggleStyle in Frameworks */ = {isa = PBXBuildFile; productRef = FD59541626DE7AAD00A63410 /* SunMoonToggleStyle */; };
+		FD59541926DE7B5400A63410 /* SunMoonToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59541826DE7B5400A63410 /* SunMoonToggleView.swift */; };
+		FD6CF16A26AD37ED0015F09C /* DodgeballAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CF16926AD37ED0015F09C /* DodgeballAnime.swift */; };
+		FD6CF16D26AD68E80015F09C /* BackgroundScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CF16C26AD68E80015F09C /* BackgroundScroll.swift */; };
+		FD6EA29D26BFCF8E00FED0F7 /* Present_and_Dismiss_Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA29C26BFCF8E00FED0F7 /* Present_and_Dismiss_Transition.swift */; };
+		FD6EA29F26BFCFC500FED0F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA29E26BFCFC500FED0F7 /* SettingsView.swift */; };
+		FD6EA2A226BFDAD200FED0F7 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2A126BFDAD200FED0F7 /* ParallaxEffect.swift */; };
+		FD6EA2A526BFE5A500FED0F7 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2A426BFE5A500FED0F7 /* Elevator.swift */; };
+		FD6EA2A826BFE67B00FED0F7 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FD6EA2A626BFE67B00FED0F7 /* doorsOpenClose.m4a */; };
+		FD6EA2A926BFE67B00FED0F7 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FD6EA2A726BFE67B00FED0F7 /* elevatorChime.m4a */; };
+		FD6EA2AB26BFE78C00FED0F7 /* PlayElevatorSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2AA26BFE78C00FED0F7 /* PlayElevatorSound.swift */; };
+		FD6EA2AD26BFE7CE00FED0F7 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2AC26BFE7CE00FED0F7 /* FrameAndDoorsView.swift */; };
+		FD6EA2B026BFF12400FED0F7 /* GirlSwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2AF26BFF12300FED0F7 /* GirlSwing.swift */; };
+		FD6EA2B326BFF5E300FED0F7 /* TwinklingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2B226BFF5E300FED0F7 /* TwinklingStars.swift */; };
+		FDEF367226DFCBD40082617D /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367126DFCBD40082617D /* GearView.swift */; };
+		FDEF367426DFCCCE0082617D /* BeltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367326DFCCCE0082617D /* BeltView.swift */; };
+		FDEF367626DFCE0D0082617D /* WormGearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367526DFCE0D0082617D /* WormGearsView.swift */; };
+		FDEF367826DFCEF80082617D /* ShaftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367726DFCEF80082617D /* ShaftView.swift */; };
+		FDEF367A26DFCFE80082617D /* FanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367926DFCFE80082617D /* FanView.swift */; };
+		FDEF367C26DFD0880082617D /* GearsBelts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367B26DFD0880082617D /* GearsBelts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +72,57 @@
 		FD0FBCA826A7299F0087AB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0FBCAB26A729A00087AB4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD0FBCAD26A729A00087AB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0FBCB326A735770087AB4D /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		FD0FBCB526A735A30087AB4D /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		FD2CB7AE26AC245400523B55 /* BreathingFlowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlowerApp.swift; sourceTree = "<group>"; };
+		FD2CB7B126AC34C900523B55 /* FlyBirdAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBirdAnime.swift; sourceTree = "<group>"; };
+		FD38A5CA26E34CDB0040EB35 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+		FD38A5CC26E34EE70040EB35 /* Heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		FD38A5CF26E35F660040EB35 /* ExpandingViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingViewComponent.swift; sourceTree = "<group>"; };
+		FD38A5D126E35F700040EB35 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
+		FD38A5D426E3660D0040EB35 /* LightSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitch.swift; sourceTree = "<group>"; };
+		FD38A5D726E36A2E0040EB35 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		FD38A5D926E36B130040EB35 /* CircleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEmitter.swift; sourceTree = "<group>"; };
+		FD38A5DB26E36B320040EB35 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		FD38A5DD26E36BA60040EB35 /* WifiLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLoading.swift; sourceTree = "<group>"; };
+		FD38A5E026E3787A0040EB35 /* BookPagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPagesView.swift; sourceTree = "<group>"; };
+		FD38A5E226E37A290040EB35 /* BookHoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookHoldView.swift; sourceTree = "<group>"; };
+		FD38A5E426E37A9E0040EB35 /* BookLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLoader.swift; sourceTree = "<group>"; };
+		FD4E307026AB1BB60072CBAA /* AnimatingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCircle.swift; sourceTree = "<group>"; };
+		FD4E307326AB20680072CBAA /* RecordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayer.swift; sourceTree = "<group>"; };
+		FD4E307526AB20E60072CBAA /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		FD4E307726AB21550072CBAA /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		FD4E307926AB24720072CBAA /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		FD4E307B26AB260B0072CBAA /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
+		FD4E307D26AB2A6D0072CBAA /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		FD4E308026AB2E0B0072CBAA /* HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation.swift; sourceTree = "<group>"; };
+		FD56323226E111880000AA8C /* buoyBells.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = buoyBells.m4a; sourceTree = "<group>"; };
+		FD56323426E111B40000AA8C /* PlayWavesSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWavesSound.swift; sourceTree = "<group>"; };
+		FD56323626E112050000AA8C /* BuoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyView.swift; sourceTree = "<group>"; };
+		FD56323826E113F00000AA8C /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		FD56323A26E115160000AA8C /* Waves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waves.swift; sourceTree = "<group>"; };
+		FD59540F26DE710300A63410 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FD59541126DE716500A63410 /* WeatherUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUI.swift; sourceTree = "<group>"; };
+		FD59541326DE71D400A63410 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		FD59541826DE7B5400A63410 /* SunMoonToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonToggleView.swift; sourceTree = "<group>"; };
+		FD6CF16926AD37ED0015F09C /* DodgeballAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodgeballAnime.swift; sourceTree = "<group>"; };
+		FD6CF16C26AD68E80015F09C /* BackgroundScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundScroll.swift; sourceTree = "<group>"; };
+		FD6EA29C26BFCF8E00FED0F7 /* Present_and_Dismiss_Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present_and_Dismiss_Transition.swift; sourceTree = "<group>"; };
+		FD6EA29E26BFCFC500FED0F7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FD6EA2A126BFDAD200FED0F7 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
+		FD6EA2A426BFE5A500FED0F7 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		FD6EA2A626BFE67B00FED0F7 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doorsOpenClose.m4a; sourceTree = "<group>"; };
+		FD6EA2A726BFE67B00FED0F7 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevatorChime.m4a; sourceTree = "<group>"; };
+		FD6EA2AA26BFE78C00FED0F7 /* PlayElevatorSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayElevatorSound.swift; sourceTree = "<group>"; };
+		FD6EA2AC26BFE7CE00FED0F7 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
+		FD6EA2AF26BFF12300FED0F7 /* GirlSwing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlSwing.swift; sourceTree = "<group>"; };
+		FD6EA2B226BFF5E300FED0F7 /* TwinklingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinklingStars.swift; sourceTree = "<group>"; };
+		FDEF367126DFCBD40082617D /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
+		FDEF367326DFCCCE0082617D /* BeltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltView.swift; sourceTree = "<group>"; };
+		FDEF367526DFCE0D0082617D /* WormGearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormGearsView.swift; sourceTree = "<group>"; };
+		FDEF367726DFCEF80082617D /* ShaftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftView.swift; sourceTree = "<group>"; };
+		FDEF367926DFCFE80082617D /* FanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanView.swift; sourceTree = "<group>"; };
+		FDEF367B26DFD0880082617D /* GearsBelts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearsBelts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD59541726DE7AAD00A63410 /* SunMoonToggleStyle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +156,30 @@
 		FD0FBCA326A7299C0087AB4D /* JustAnimateSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD38A5DF26E378640040EB35 /* BookLoader */,
+				FD38A5D626E36A0D0040EB35 /* WifiLoading */,
+				FD38A5D326E365FA0040EB35 /* LightSwitch */,
+				FD38A5CE26E35F500040EB35 /* Expanding */,
+				FD38A5C926E34CC80040EB35 /* Heart */,
+				FD56323126E110C20000AA8C /* Waves */,
+				FDEF367026DFCB8B0082617D /* GearsBelts */,
+				FD59540E26DE702100A63410 /* Weather UI */,
+				FD6EA2B126BFF5D100FED0F7 /* Twinkling Stars */,
+				FD6EA2AE26BFF11600FED0F7 /* GirlSwing */,
+				FD6EA2A326BFE59500FED0F7 /* Elevator */,
+				FD6EA2A026BFDAC300FED0F7 /* ParallaxEffect */,
+				FD6EA29B26BFCF6800FED0F7 /* PresentAndDismissTransition */,
+				FD6CF16B26AD685E0015F09C /* BackgroundScroll */,
+				FD6CF16826AD37CD0015F09C /* SpriteKit_DodgeBallAnime */,
+				FD2CB7B026AC34A000523B55 /* FlyBird */,
+				FD2CB7AD26AC23F400523B55 /* PetalsBreadth */,
+				FD4E307F26AB2D590072CBAA /* AnimateColorsWithHueRotation */,
+				FD4E307226AB20580072CBAA /* RecordPlayerAnimation */,
 				FD0FBCA426A7299C0087AB4D /* JustAnimateSwiftUIApp.swift */,
 				FD0FBCA626A7299C0087AB4D /* ContentView.swift */,
+				FD4E307026AB1BB60072CBAA /* AnimatingCircle.swift */,
+				FD0FBCB326A735770087AB4D /* TextModifier.swift */,
+				FD0FBCB526A735A30087AB4D /* ImageModifier.swift */,
 				FD0FBCA826A7299F0087AB4D /* Assets.xcassets */,
 				FD0FBCAD26A729A00087AB4D /* Info.plist */,
 				FD0FBCAA26A729A00087AB4D /* Preview Content */,
@@ -67,6 +193,187 @@
 				FD0FBCAB26A729A00087AB4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD2CB7AD26AC23F400523B55 /* PetalsBreadth */ = {
+			isa = PBXGroup;
+			children = (
+				FD2CB7AE26AC245400523B55 /* BreathingFlowerApp.swift */,
+			);
+			path = PetalsBreadth;
+			sourceTree = "<group>";
+		};
+		FD2CB7B026AC34A000523B55 /* FlyBird */ = {
+			isa = PBXGroup;
+			children = (
+				FD2CB7B126AC34C900523B55 /* FlyBirdAnime.swift */,
+			);
+			path = FlyBird;
+			sourceTree = "<group>";
+		};
+		FD38A5C926E34CC80040EB35 /* Heart */ = {
+			isa = PBXGroup;
+			children = (
+				FD38A5CA26E34CDB0040EB35 /* HeartShape.swift */,
+				FD38A5CC26E34EE70040EB35 /* Heart.swift */,
+			);
+			path = Heart;
+			sourceTree = "<group>";
+		};
+		FD38A5CE26E35F500040EB35 /* Expanding */ = {
+			isa = PBXGroup;
+			children = (
+				FD38A5CF26E35F660040EB35 /* ExpandingViewComponent.swift */,
+				FD38A5D126E35F700040EB35 /* ExpandingView.swift */,
+			);
+			path = Expanding;
+			sourceTree = "<group>";
+		};
+		FD38A5D326E365FA0040EB35 /* LightSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				FD38A5D426E3660D0040EB35 /* LightSwitch.swift */,
+			);
+			path = LightSwitch;
+			sourceTree = "<group>";
+		};
+		FD38A5D626E36A0D0040EB35 /* WifiLoading */ = {
+			isa = PBXGroup;
+			children = (
+				FD38A5D726E36A2E0040EB35 /* ArcView.swift */,
+				FD38A5D926E36B130040EB35 /* CircleEmitter.swift */,
+				FD38A5DD26E36BA60040EB35 /* WifiLoading.swift */,
+				FD38A5DB26E36B320040EB35 /* Circles.swift */,
+			);
+			path = WifiLoading;
+			sourceTree = "<group>";
+		};
+		FD38A5DF26E378640040EB35 /* BookLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FD38A5E026E3787A0040EB35 /* BookPagesView.swift */,
+				FD38A5E226E37A290040EB35 /* BookHoldView.swift */,
+				FD38A5E426E37A9E0040EB35 /* BookLoader.swift */,
+			);
+			path = BookLoader;
+			sourceTree = "<group>";
+		};
+		FD4E307226AB20580072CBAA /* RecordPlayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E307326AB20680072CBAA /* RecordPlayer.swift */,
+				FD4E307D26AB2A6D0072CBAA /* PlaySound.swift */,
+				FD4E307B26AB260B0072CBAA /* ArmView.swift */,
+				FD4E307926AB24720072CBAA /* RecordView.swift */,
+				FD4E307526AB20E60072CBAA /* RecordPlayerBox.swift */,
+				FD4E307726AB21550072CBAA /* music.m4a */,
+			);
+			path = RecordPlayerAnimation;
+			sourceTree = "<group>";
+		};
+		FD4E307F26AB2D590072CBAA /* AnimateColorsWithHueRotation */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E308026AB2E0B0072CBAA /* HueRotation.swift */,
+			);
+			path = AnimateColorsWithHueRotation;
+			sourceTree = "<group>";
+		};
+		FD56323126E110C20000AA8C /* Waves */ = {
+			isa = PBXGroup;
+			children = (
+				FD56323226E111880000AA8C /* buoyBells.m4a */,
+				FD56323426E111B40000AA8C /* PlayWavesSound.swift */,
+				FD56323626E112050000AA8C /* BuoyView.swift */,
+				FD56323826E113F00000AA8C /* WaveView.swift */,
+				FD56323A26E115160000AA8C /* Waves.swift */,
+			);
+			path = Waves;
+			sourceTree = "<group>";
+		};
+		FD59540E26DE702100A63410 /* Weather UI */ = {
+			isa = PBXGroup;
+			children = (
+				FD59540F26DE710300A63410 /* DataModel.swift */,
+				FD59541126DE716500A63410 /* WeatherUI.swift */,
+				FD59541326DE71D400A63410 /* PickerView.swift */,
+				FD59541826DE7B5400A63410 /* SunMoonToggleView.swift */,
+			);
+			path = "Weather UI";
+			sourceTree = "<group>";
+		};
+		FD6CF16826AD37CD0015F09C /* SpriteKit_DodgeBallAnime */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CF16926AD37ED0015F09C /* DodgeballAnime.swift */,
+			);
+			path = SpriteKit_DodgeBallAnime;
+			sourceTree = "<group>";
+		};
+		FD6CF16B26AD685E0015F09C /* BackgroundScroll */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CF16C26AD68E80015F09C /* BackgroundScroll.swift */,
+			);
+			path = BackgroundScroll;
+			sourceTree = "<group>";
+		};
+		FD6EA29B26BFCF6800FED0F7 /* PresentAndDismissTransition */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EA29C26BFCF8E00FED0F7 /* Present_and_Dismiss_Transition.swift */,
+				FD6EA29E26BFCFC500FED0F7 /* SettingsView.swift */,
+			);
+			path = PresentAndDismissTransition;
+			sourceTree = "<group>";
+		};
+		FD6EA2A026BFDAC300FED0F7 /* ParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EA2A126BFDAD200FED0F7 /* ParallaxEffect.swift */,
+			);
+			path = ParallaxEffect;
+			sourceTree = "<group>";
+		};
+		FD6EA2A326BFE59500FED0F7 /* Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EA2A626BFE67B00FED0F7 /* doorsOpenClose.m4a */,
+				FD6EA2A726BFE67B00FED0F7 /* elevatorChime.m4a */,
+				FD6EA2A426BFE5A500FED0F7 /* Elevator.swift */,
+				FD6EA2AA26BFE78C00FED0F7 /* PlayElevatorSound.swift */,
+				FD6EA2AC26BFE7CE00FED0F7 /* FrameAndDoorsView.swift */,
+			);
+			path = Elevator;
+			sourceTree = "<group>";
+		};
+		FD6EA2AE26BFF11600FED0F7 /* GirlSwing */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EA2AF26BFF12300FED0F7 /* GirlSwing.swift */,
+			);
+			path = GirlSwing;
+			sourceTree = "<group>";
+		};
+		FD6EA2B126BFF5D100FED0F7 /* Twinkling Stars */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EA2B226BFF5E300FED0F7 /* TwinklingStars.swift */,
+			);
+			path = "Twinkling Stars";
+			sourceTree = "<group>";
+		};
+		FDEF367026DFCB8B0082617D /* GearsBelts */ = {
+			isa = PBXGroup;
+			children = (
+				FDEF367126DFCBD40082617D /* GearView.swift */,
+				FDEF367326DFCCCE0082617D /* BeltView.swift */,
+				FDEF367526DFCE0D0082617D /* WormGearsView.swift */,
+				FDEF367726DFCEF80082617D /* ShaftView.swift */,
+				FDEF367926DFCFE80082617D /* FanView.swift */,
+				FDEF367B26DFD0880082617D /* GearsBelts.swift */,
+			);
+			path = GearsBelts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +392,9 @@
 			dependencies = (
 			);
 			name = JustAnimateSwiftUI;
+			packageProductDependencies = (
+				FD59541626DE7AAD00A63410 /* SunMoonToggleStyle */,
+			);
 			productName = JustAnimateSwiftUI;
 			productReference = FD0FBCA126A7299C0087AB4D /* JustAnimateSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +422,9 @@
 				Base,
 			);
 			mainGroup = FD0FBC9826A7299C0087AB4D;
+			packageReferences = (
+				FD59541526DE7AAD00A63410 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */,
+			);
 			productRefGroup = FD0FBCA226A7299C0087AB4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +440,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0FBCAC26A729A00087AB4D /* Preview Assets.xcassets in Resources */,
+				FD6EA2A826BFE67B00FED0F7 /* doorsOpenClose.m4a in Resources */,
+				FD56323326E111880000AA8C /* buoyBells.m4a in Resources */,
 				FD0FBCA926A7299F0087AB4D /* Assets.xcassets in Resources */,
+				FD4E307826AB21550072CBAA /* music.m4a in Resources */,
+				FD6EA2A926BFE67B00FED0F7 /* elevatorChime.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +455,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD38A5CB26E34CDB0040EB35 /* HeartShape.swift in Sources */,
 				FD0FBCA726A7299C0087AB4D /* ContentView.swift in Sources */,
+				FDEF367826DFCEF80082617D /* ShaftView.swift in Sources */,
+				FD4E307C26AB260B0072CBAA /* ArmView.swift in Sources */,
+				FD38A5D526E3660E0040EB35 /* LightSwitch.swift in Sources */,
+				FD2CB7B226AC34C900523B55 /* FlyBirdAnime.swift in Sources */,
+				FD6EA2A226BFDAD200FED0F7 /* ParallaxEffect.swift in Sources */,
+				FD38A5CD26E34EE70040EB35 /* Heart.swift in Sources */,
+				FD38A5D826E36A2E0040EB35 /* ArcView.swift in Sources */,
+				FD6EA2AD26BFE7CE00FED0F7 /* FrameAndDoorsView.swift in Sources */,
+				FD38A5E326E37A290040EB35 /* BookHoldView.swift in Sources */,
+				FD59541026DE710300A63410 /* DataModel.swift in Sources */,
+				FD56323926E113F00000AA8C /* WaveView.swift in Sources */,
+				FD38A5E126E3787A0040EB35 /* BookPagesView.swift in Sources */,
+				FD6CF16D26AD68E80015F09C /* BackgroundScroll.swift in Sources */,
+				FD0FBCB626A735A30087AB4D /* ImageModifier.swift in Sources */,
+				FD6EA29F26BFCFC500FED0F7 /* SettingsView.swift in Sources */,
+				FD59541226DE716500A63410 /* WeatherUI.swift in Sources */,
 				FD0FBCA526A7299C0087AB4D /* JustAnimateSwiftUIApp.swift in Sources */,
+				FD38A5DE26E36BA60040EB35 /* WifiLoading.swift in Sources */,
+				FD4E308126AB2E0B0072CBAA /* HueRotation.swift in Sources */,
+				FD56323B26E115160000AA8C /* Waves.swift in Sources */,
+				FD59541426DE71D400A63410 /* PickerView.swift in Sources */,
+				FD6EA29D26BFCF8E00FED0F7 /* Present_and_Dismiss_Transition.swift in Sources */,
+				FD38A5D026E35F660040EB35 /* ExpandingViewComponent.swift in Sources */,
+				FDEF367626DFCE0D0082617D /* WormGearsView.swift in Sources */,
+				FD4E307426AB20690072CBAA /* RecordPlayer.swift in Sources */,
+				FD38A5DC26E36B320040EB35 /* Circles.swift in Sources */,
+				FD4E307E26AB2A6D0072CBAA /* PlaySound.swift in Sources */,
+				FD2CB7AF26AC245400523B55 /* BreathingFlowerApp.swift in Sources */,
+				FD38A5DA26E36B130040EB35 /* CircleEmitter.swift in Sources */,
+				FD6EA2B326BFF5E300FED0F7 /* TwinklingStars.swift in Sources */,
+				FD56323526E111B40000AA8C /* PlayWavesSound.swift in Sources */,
+				FD6CF16A26AD37ED0015F09C /* DodgeballAnime.swift in Sources */,
+				FD38A5D226E35F700040EB35 /* ExpandingView.swift in Sources */,
+				FD0FBCB426A735770087AB4D /* TextModifier.swift in Sources */,
+				FD56323726E112050000AA8C /* BuoyView.swift in Sources */,
+				FD6EA2AB26BFE78C00FED0F7 /* PlayElevatorSound.swift in Sources */,
+				FD4E307A26AB24720072CBAA /* RecordView.swift in Sources */,
+				FDEF367A26DFCFE80082617D /* FanView.swift in Sources */,
+				FD6EA2A526BFE5A500FED0F7 /* Elevator.swift in Sources */,
+				FDEF367426DFCCCE0082617D /* BeltView.swift in Sources */,
+				FDEF367226DFCBD40082617D /* GearView.swift in Sources */,
+				FD59541926DE7B5400A63410 /* SunMoonToggleView.swift in Sources */,
+				FD4E307626AB20E60072CBAA /* RecordPlayerBox.swift in Sources */,
+				FDEF367C26DFD0880082617D /* GearsBelts.swift in Sources */,
+				FD6EA2B026BFF12400FED0F7 /* GirlSwing.swift in Sources */,
+				FD4E307126AB1BB60072CBAA /* AnimatingCircle.swift in Sources */,
+				FD38A5E526E37A9E0040EB35 /* BookLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +692,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD59541526DE7AAD00A63410 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/puthnith/SunMoonToggleStyle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD59541626DE7AAD00A63410 /* SunMoonToggleStyle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD59541526DE7AAD00A63410 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */;
+			productName = SunMoonToggleStyle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD0FBC9926A7299C0087AB4D /* Project object */;
 }
