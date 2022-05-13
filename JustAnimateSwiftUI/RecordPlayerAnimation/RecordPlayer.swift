@@ -15,12 +15,11 @@ struct RecordPlayer: View {
   
   var body: some View {
     ZStack {
-      RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .center, startRadius: 20, endRadius: 600)
+      RadialGradient(gradient: Gradient(colors: [.black, .pink]), center: .center, startRadius: 20, endRadius: 600)
         .scaleEffect(1.2)
       
       RecordPlayerBox()
         .offset(y: -140)
-      
       
       VStack {
         RecordView(degrees: $degrees, shouldAnimate: $shouldAnimate)
@@ -33,10 +32,10 @@ struct RecordPlayer: View {
           if shouldAnimate {
             degrees = 83000
             rotateArm.toggle()
-              // playSound(sound: "music", type: "m4a")
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
               playSound(sound: "Dil_Tujhko_Chahe", type: "mp3")
             }
+            
           } else{
             rotateArm.toggle()
             degrees = 0
@@ -59,6 +58,7 @@ struct RecordPlayer: View {
           .background(Capsule().strokeBorder(Color.pink, lineWidth: 1.25))
         }
         .offset(y: -140)
+        
       }
       Image("DilTujhkoChahe")
         .resizable()
