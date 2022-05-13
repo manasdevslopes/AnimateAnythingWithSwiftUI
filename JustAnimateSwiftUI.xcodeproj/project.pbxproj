@@ -57,6 +57,7 @@
 		FD6EA2AD26BFE7CE00FED0F7 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2AC26BFE7CE00FED0F7 /* FrameAndDoorsView.swift */; };
 		FD6EA2B026BFF12400FED0F7 /* GirlSwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2AF26BFF12300FED0F7 /* GirlSwing.swift */; };
 		FD6EA2B326BFF5E300FED0F7 /* TwinklingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EA2B226BFF5E300FED0F7 /* TwinklingStars.swift */; };
+		FD8BB3A0282E45F100115809 /* Dil_Tujhko_Chahe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD8BB39F282E45F100115809 /* Dil_Tujhko_Chahe.mp3 */; };
 		FDEF367226DFCBD40082617D /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367126DFCBD40082617D /* GearView.swift */; };
 		FDEF367426DFCCCE0082617D /* BeltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367326DFCCCE0082617D /* BeltView.swift */; };
 		FDEF367626DFCE0D0082617D /* WormGearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF367526DFCE0D0082617D /* WormGearsView.swift */; };
@@ -117,6 +118,7 @@
 		FD6EA2AC26BFE7CE00FED0F7 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
 		FD6EA2AF26BFF12300FED0F7 /* GirlSwing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlSwing.swift; sourceTree = "<group>"; };
 		FD6EA2B226BFF5E300FED0F7 /* TwinklingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinklingStars.swift; sourceTree = "<group>"; };
+		FD8BB39F282E45F100115809 /* Dil_Tujhko_Chahe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dil_Tujhko_Chahe.mp3; sourceTree = "<group>"; };
 		FDEF367126DFCBD40082617D /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
 		FDEF367326DFCCCE0082617D /* BeltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltView.swift; sourceTree = "<group>"; };
 		FDEF367526DFCE0D0082617D /* WormGearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormGearsView.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				FD4E307B26AB260B0072CBAA /* ArmView.swift */,
 				FD4E307926AB24720072CBAA /* RecordView.swift */,
 				FD4E307526AB20E60072CBAA /* RecordPlayerBox.swift */,
+				FD8BB39F282E45F100115809 /* Dil_Tujhko_Chahe.mp3 */,
 				FD4E307726AB21550072CBAA /* music.m4a */,
 			);
 			path = RecordPlayerAnimation;
@@ -442,6 +445,7 @@
 				FD0FBCAC26A729A00087AB4D /* Preview Assets.xcassets in Resources */,
 				FD6EA2A826BFE67B00FED0F7 /* doorsOpenClose.m4a in Resources */,
 				FD56323326E111880000AA8C /* buoyBells.m4a in Resources */,
+				FD8BB3A0282E45F100115809 /* Dil_Tujhko_Chahe.mp3 in Resources */,
 				FD0FBCA926A7299F0087AB4D /* Assets.xcassets in Resources */,
 				FD4E307826AB21550072CBAA /* music.m4a in Resources */,
 				FD6EA2A926BFE67B00FED0F7 /* elevatorChime.m4a in Resources */,
